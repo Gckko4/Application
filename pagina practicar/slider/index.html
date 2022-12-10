@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>A simple DIY responsive slideshow made with HTML5, CSS3, and JavaScript</title>
+    <link rel="stylesheet" href="css/base_styles.css">
+    <link rel="stylesheet" href="css/simple-slideshow-styles.css">
+</head>
+<body>
+<header>
+    <h1>A Better Simple Slideshow</h1>
+    <p><span class="desc">A simple DIY responsive JavaScript slideshow.</span> [<a
+            href="https://github.com/leemark/better-simple-slideshow">GitHub<span> repo</span></a>]</p>
+</header>
+<div class="bss-slides my-slide" tabindex="1" autofocus="autofocus">
+    <figure>
+        <img src="img/medium.jpg" width="100%"/>
+        <figcaption>"Medium" by <a href="https://www.flickr.com/photos/thomashawk/14586158819/">Thomas
+            Hawk</a>.
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="img/colorado.jpg" width="100%"/>
+        <figcaption>"Colorado" by <a href="https://www.flickr.com/photos/stuckincustoms/88370744">Trey
+            Ratcliff</a>.
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="img/monte-vista.jpg" width="100%"/>
+        <figcaption>"Early Morning at the Monte Vista Wildlife Refuge, Colorado" by <a
+                href="https://www.flickr.com/photos/davesoldano/8572429635">Dave Soldano</a>.
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="img/sunrise.jpg" width="100%"/>
+        <figcaption>"Sunrise in Eastern Colorado" by <a
+                href="https://www.flickr.com/photos/35528040@N04/6673031153">Pam Morris</a>.
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="img/colorado-colors.jpg" width="100%"/>
+        <figcaption>"colorado colors" by <a href="https://www.flickr.com/photos/cptspock/2857543585">Jasen
+            Miller</a>.
+        </figcaption>
+    </figure>
+</div>
+
+<script src="js/hammer.min.js"></script><!-- for swipe support on touch interfaces -->
+<script src="js/better-simple-slideshow.js"></script>
+<script>
+    makeBSS('my-slide',
+        {
+            auto: {
+                speed: 3600,
+                pauseOnHover: true
+            },
+            fullScreen: false,
+            swipe: true
+        });
+</script>
+</body>
+</html>
