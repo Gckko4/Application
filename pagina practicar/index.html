@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/slide.css" />
-    <link rel="stylesheet" href="styles/parallax.css" />
+    <link rel="stylesheet" href="styles/bottom.css" />
+    <link
+      rel="stylesheet"
+      href="slider/css/simple-slideshow-styles.css"
+    />
 
     <!-- Fuentes de Google-Fonts -->
 
@@ -27,74 +31,35 @@
       crossorigin
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Proza+Libre:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Cierra -->
-
-    
   </head>
-  <body>
-    <header>
-      <a href="https://www.google.com" target="_blank" class="logo">Gregg Pinero</a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">über mich</a></li>
-          <li><a href="#">Wunschberuf</a></li>
-          <li><a href="#">SKATEDELUXE</a></li>
-        </ul>
-      </nav>
-      <a class="contact" href=""
-        ><button>Kontaktdaten</button></a
-      >
-    </header>
+  <body>    
+      <header class="header" id="section-one">
+        <a href="https://www.google.com" target="_blank" class="logo">Gregg Pinero</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">über mich</a></li>
+            <li><a href="#">Wunschberuf</a></li>
+            <li><a href="#">SKATEDELUXE</a></li>
+          </ul>
+        </nav>
+        <a href="#"><button>Kontakt</button></a>
+      </header>  
+<div style="max-width: 2000px;margin: auto;">
     <!-- prueba para ver que tal se ve -->
     <section class="section-1 to-top ">
       <div class="divisor-part-1 ">
-          <h1> Hallo! </h1>
+        <h1> Hallo! </h1>
         <div>
           <p>
             hier eine kleine Präsentation über mich, ich hoffe sie gefällt euch. 
-        </p>
+          </p>
+        </div>
       </div>
-      </div>
 
-    <!--Cierre-->
-
-      <!-- Slider -->
-
-<!-- 
-        <section class="container">
-          <div class="slider-wrapper">
-            <div class="slider">
-              <img
-                src="boldudo.jpeg"
-                alt="a cat sleeping in my bed"
-                id="slide-1"
-              />
-              <img
-                src="boldudo.jpeg"
-                alt="a cat sleeping in my bed"
-                id="slide-2"
-              />
-              <img
-                src="boldudo.jpeg"
-                alt="a cat sleeping in my bed"
-                id="slide-3"
-              />
-            </div>
-            <div class="slider-nav">
-              <a href="#slide-1"></a>
-              <a href="#slide-2"></a>
-              <a href="#slide-3"></a>
-            </div>
-          </div>
-        </section>
-
-        <!--  Cierre  -->
-
-      </div>
     </section>
     <section>
       <div class="section-2">
@@ -121,23 +86,89 @@
             mauris velit varius magna, vel facilisis lectus arcu a massa.
           </p>
         </div>
-        <div>
-          <div>
-              <img
-                src="paisaje.jfif"
-                alt=""
-                style="
-                  width: 100%;
-                  max-width: 500px;
-                "
-              />
+        <div style="">
+          <div style="box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px;"
+              class="bss-slides my-slide"
+              tabindex="1"
+              autofocus="autofocus"
+          >
+      <figure>
+        <img src="slider/img/medium.jpg" width="100%" />
+      </figure>
+      <figure>
+        <img src="slider/img/colorado.jpg" width="100%" />
+      </figure>
+      <figure>
+        <img src="slider/img/monte-vista.jpg" width="100%" />
+      </figure>
+      <figure>
+        <img src="slider/img/sunrise.jpg" width="100%" />
+      </figure>
+      <figure>
+        <img src="slider/img/colorado-colors.jpg" width="100%" />
+      </figure>
+    </div>
+      </div>
+    </section>
+    <div class="parallax-why">
+        <h1 class="parallax-why-inside"">Warum?</h1>
+        <p class="parallax-why-inside"> &#9900; Warum Fachinformatiker? <br> &#9900; Warum SKATEDELUXE?</p>
+    </div>
+    
+    <section class="bottom">
+      <div class="bottom-container">
+        <div class="inf-bottom-divisor-1">Kontakt Daten</div>
+       <div class="inf-bottom-1">
+         <div class="contact-1 text-form">
+           <h3> &#9993; Email</h3>
+            <p> Greco4199@gmail.com</p>
+          </div>
+          <div class="contact-2 text-form">
+            <h3> &phone; Telefon Nummer</h3>
+            <p>+49 172 7732689</p>
+          </div>
+        </div>
+        <div class="inf-bottom-divisor-2">Anhänge</div>
+        <div class="inf-bottom-2">
+          <div class="att-1 text-form">
+            <h3>Unterlagen</h3>
+            <p>Hiermit finden Sie die notwendigen Unterlagen für die weitere Bearbeitung meine Bewerbung</p>
+          </div>
+          <div class="att-2 text-form">
+            <h3>Web resources</h3>
+            <p>les adjunto tambien el codigo de la pagina web 
+              en Github por si les quieren echar un ojo</p>
+              <u style="margin-top: 30px;text-decoration:none;">
+                <li style="list-style: none;"> 
+                  <a target="_blank" href="https://www.github.com/Gckko4/Application" class="att-link "> Codigo</a>
+                </li>
+              </u>
           </div>
         </div>
       </div>
     </section>
-    <div class="parallax-why">
-        <h1>Warum?</h1>
-        <p> warum Fachinformatiker? <br> und Warum SKATEDELUXE?</p>
-    </div>
+
+    <!-- scripts -->
+
+    <script src="slider/js/hammer.min.js"></script>
+    <script src="slider/js/better-simple-slideshow.js"></script>
+    <script>
+      makeBSS(".my-slide", {
+        auto: {
+          speed: 3600,
+          pauseOnHover: true,
+        },
+        fullScreen: false,
+        swipe: true,
+      });
+    </script>
+    <a href="#section-one">
+      <div style="position: fixed;bottom: 0.5rem;right: 0.25rem;padding: 6px 10px 0px 11px;text-align: center;width: 60px; z-index:80;filter: drop-shadow(0.0rem 0.2rem 0.4rem rgba(27,39,44,.5));">
+        <svg xmlns="http://www.w3.org/2000/svg"  class="go-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+        </svg>
+      </div>
+    </a>
+  </div>
   </body>
 </html>

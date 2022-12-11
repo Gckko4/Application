@@ -2,14 +2,14 @@
   box-sizing: border-box; -webkit-box-sizing: border-box; 
   margin: 0;
   padding: 0;
-  font-family: "Rubik",Proza Libre, Montserrat;
+  font-family: "Rubik", Montserrat;
 }
 body {  background-color: #f7ede2;}
 html, body { height: 100%; }
-body {
-
-  padding-bottom: 15000px;
+html {
+  scroll-behavior: smooth;
 }
+
 /*    probando nuevo css en el infobox   */ 
 
 .section-1 {
@@ -121,18 +121,6 @@ cursor: context-menu;
 
 /*------------------ Cierre -----------*/ 
 
-
-/* ------------nuevo slider------------ */
-
-
-
-
-
-
-
-
-/* ------------- Cierre ----------*/
-
 .section-2{
   margin: 80px auto;
   margin-bottom: 0;
@@ -145,6 +133,7 @@ cursor: context-menu;
 
 .text-left {
   color: #fff;
+  background-color: #0e0e0e;
   font-size: 20px;
   padding: 250px 10px;
   max-width: 700px;
@@ -156,24 +145,35 @@ cursor: context-menu;
 
 
 .parallax-why {
-  margin-top: 500px;
+  position: relative;
+  margin-top: 200px;
   text-align: center;
   color: var(--color);
   width: 100%;
-  min-height: 100vh;
+  min-height: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(https://miro.medium.com/max/1182/1*XOCsaK_lUVYwIyGjIJ1v7g.png);
+}
+
+.parallax-why::before{
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: url(https://leonorcanuelo.com/wp-content/uploads/2015/12/conceptos-basicos-html.jpg); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  filter:brightness(30%);
 }
-
+.parallax-why-inside {
+  position: relative;
+}
 .parallax-why h1 {
 color: white;
-font-family: "Red Hat Text";
+font-family: "Red Hat Text",Rubik,Montserrat;
 font-weight: bold;
 font-size: 130px;
 border-bottom: 5px solid rgb(255, 255, 255);
@@ -182,10 +182,11 @@ margin-bottom: 40px;
 }
   .parallax-why p {
     color: white;
-    font-family: "Red Hat Text";
+    font-family: "Red Hat Text",Rubik,Montserrat;
     font-weight: bold;
     font-size: 28px;
     line-height: 40px;
+    text-indent: 26px;
     }
 
 

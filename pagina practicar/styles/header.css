@@ -13,7 +13,7 @@
 .logo:hover {
   transform: scale(1.1, 1.1);
  }
-li,a,button {
+ header > li,a,button {
  font-family: "montserrat", sans-serif;
  font-size: 16px;
  color: #edf0f1;
@@ -51,7 +51,7 @@ header {
 header a button  {
   font-size: 16px;
   color: #000000;
-  padding: 9px 25px;
+  padding: 10px 40px;
   background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 50px;
@@ -66,4 +66,13 @@ header a button:hover {
 }
 header a button:active {
   opacity: 70%;
+}
+
+.go-up {
+  opacity: 50%;
+  border-radius: 50px;
+  background-color:#f8f8f8;
+}
+.go-up:hover {
+  opacity: 100%;
 }

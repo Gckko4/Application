@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Neuton:wght@200;300;400;700&display=swap');
+.bottom-container {
+  vertical-align: baseline;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+.bottom-container {
+  flex: 1;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+}
+.inf-bottom-divisor-1,.inf-bottom-divisor-2 {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.596);
+  font-family: 'Bebas Neue',Rubik,Montserrat;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+  font-size: 28px;
+  padding: 25px 0;
+  letter-spacing: 3px;
+}
+
+.inf-bottom-1,.inf-bottom-2 {
+  display: flex;
+  margin: 40px;
+  padding: 25px 0;
+  gap: 100px;
+}
+.text-form,.att-link {
+  font-family: 'Bebas Neue',Rubik,Montserrat;
+  color: black;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 20px;
+}
+.inf-bottom-1 h3,.inf-bottom-2 h3{
+  border-bottom: solid 1px rgba(0, 0, 0, 0.596);
+  margin-bottom: 25px;
+  font-family: 'Bebas Neue',Rubik,Montserrat;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 24px;
+  padding-bottom: 20px
+}
+.contact-1,.contact-2{
+  flex: 1;
+}
+.att-1,.att-2{ 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.att-link {
+  font-family: 'Rubik';
+  text-decoration: underline;
+}
+.att-2 u li::before {
+  content: '\27A4';
+  margin: 0 1em; 
+  
+}
+
+
+
+
