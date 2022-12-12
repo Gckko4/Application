@@ -1,0 +1,272 @@
+*{
+
+  box-sizing: border-box; -webkit-box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", Montserrat;
+}
+body {  background-color: #f7ede2;}
+html, body { height: 100%; }
+html {
+  scroll-behavior: smooth;
+}
+
+/* icons */
+.go-up {
+  opacity: 50%;
+  border-radius: 50px;
+  background-color:#f8f8f8;
+}
+.go-up:hover {
+  opacity: 100%;
+}
+.pdf-icon {
+  width: 70px;
+  color: black;
+}
+/* cierre */
+
+/*    probando nuevo css en el infobox   */ 
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to top, Red 50%, rgba(0, 0, 0, 0) 0);
+  background-position: top;
+  transition: background-position  0.5s;
+  margin: 170px auto;
+  max-width: 1200px;
+  border-radius: 50px;
+}
+
+.divisor-part-1{
+  margin: auto;
+  font-size: 16px;
+  padding: 90px 80px;
+  word-break:break-word;
+  text-align:justify;
+} 
+
+.divisor-part-1 div p {
+  margin: 40px 16px;font-size:  25px; 
+  text-align: justify;
+  transition: color 0.5s;
+  cursor: context-menu;
+}
+.divisor-part-1 h1 {
+margin:40px; 
+font-size: 200px; 
+font-weight: bold; 
+text-align: center;
+transition: color 0.5s;
+cursor: context-menu;
+}
+
+.to-top:hover {
+  background-position: bottom;
+  color: white;
+}
+
+
+
+/* slider con css only */
+.container {
+	padding: 20px;
+  padding-bottom: 35px;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	border-radius: 10px;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+  box-shadow: 18px 11px 0px 2px #fff;
+}
+
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 16px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+  margin: 20px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #ff0000;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+  background-color: #fff;
+}
+
+.img-text{
+  flex: 1;
+}
+.section-2{
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-evenly;
+}
+.section-2 div p {
+  font-size: 20px;
+}
+
+
+.section-2-left {
+  color: rgb(0, 0, 0);
+  padding: 150px 0;
+  max-width: 700px;
+  margin: 20px 0;
+  margin-left: 50px;
+  line-height: 20px;
+  text-align: justify;
+  flex: 1;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: ;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.05);;
+}
+.section-2 p {
+padding: 0 50px;
+}
+
+.section-2-right{
+  flex: 1;
+
+}
+
+
+.section-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 100px;
+  width: 100%;
+  flex: 1;
+  margin-bottom: 400px;
+}
+
+.section-3 div img {
+  background-color: white;
+  padding: 40px 40px 200px 40px ;
+  box-shadow: 7px 5px 15px 5px rgba(0,0,0,0.14);
+  
+}
+
+.section-3-right {
+  border-radius: 5px;
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 25px;
+  text-align: justify;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-3-right p {
+  margin-bottom: 25px;
+  padding: 0 60px;
+}
+
+.parallax-bg {
+  position: relative;
+  margin-top: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  /*
+    background-image: url(https://leonorcanuelo.com/wp-content/uploads/2015/12/conceptos-basicos-html.jpg);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+.parallax-bg::before{
+
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: url(https://leonorcanuelo.com/wp-content/uploads/2015/12/conceptos-basicos-html.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter:brightness(30%);
+
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+  gap: 100px;
+  padding: 0 0 110px 0;
+}
+.parallax-tittle{
+  font-size: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  margin: 100px 0;
+}
+.item {
+  font-family: "Rubik",Montserrat;
+  font-weight: 400;
+  flex: 1;
+  background-color: white;
+  padding: 30px 80px 40px 80px;
+  max-width: 560px;
+  margin: 0;
+  border-radius: 10px;
+  text-align: justify;
+  -webkit-box-shadow: inset 0px 0px 20px -1px #1F1F1F; 
+  box-shadow: inset 0px 0px 20px -1px #1F1F1F;
+  transition: all 0.4s ease 0s;
+}
+.item:hover{
+  transform: scale(1.2, 1.2);
+  -webkit-box-shadow: 0px 0px 20px -1px rgba(156,156,156,0.57); 
+  box-shadow: 0px 0px 20px -1px rgba(156, 156, 156, 0.479);
+}
