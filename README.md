@@ -4,7 +4,7 @@
 esta pequena pagina fue ea con conocimientos basicos de **Html** y **CSS**, reunidos en las ultimas dos semanas, con el proposito
 de crear un bewerbung un poco mas creativo y salirse un poco de la norma.
 
-He estado un poco mas enfocado en el diseno, y me hubiese gustado tener un poco mas de tiempo para pulir un par de cosas.
+He estado un poco mas enfocado en el **diseno**, y me hubiese gustado tener un poco mas de tiempo para pulir un par de cosas.
 pero aun asi, orgulloso de haber creado esta pagina en este periodo de tiempo, y mas que emocionado 
 de en un futuro adquirir muchos mas conocimentos y experiencias.
 
