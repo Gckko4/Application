@@ -1,5 +1,5 @@
 # Website als Bewerbung für SKATEDELUXE
-################################################################
+---------------------------------------------------------------------------------------------------------------------------
 
 esta pequena pagina fue ea con conocimientos basicos de Html y CSS, reunidos en las ultimas dos semanas, con el proposito
 de crear un bewerbung un poco mas creativo y salirse un poco de la norma.
