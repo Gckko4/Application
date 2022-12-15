@@ -9,10 +9,6 @@ Wie Sie sicherlich bereits erfahren haben, die Kodierung basiert sich nur auf **
 
 Damit möchte ich mich mit den Lehrer:innen von **Joblinge** bedanken, insbesondere mit der **Frau Rasehorn-Scholtz** für ihre Beratung, sowie mit meinem Mentor **Jonas Doering**, nicht nur für Image Slider sondern auch dafür, daß er alle meine Zweifel und Fragen mit Geduld geantwortet hat und mich mit diesem Projekt in Github unterstützt hat. ****
 
-Con esto me gustaria agradecer A las Docentes de **Joblinge**, en especial a **Frau Rasehorn-Scholtz** por el ascesoramiento.
-asi como tambien a mi mi mentor, **Jonas Doering**, no solo por el Image Slider sino por responderme muchas dudas y preguntas, 
-como tambien a configurar este proyecto en Github,etc.
-
 Ich hoffe, dass meine Präsentation Ihnen gefällt und freue mich, auf in der Zukunft mit Ihnen arbeiten zu können.
 
 **Gregg Pinero**
